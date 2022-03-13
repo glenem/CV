@@ -3,7 +3,7 @@
 
 ## Why
 
-An easier method of creating and maintaining my resume. Automation is essential to make sure our precious time is used doing other things like learning new skills or working on other projects. After all there is an opportunity cost in doing everything even crafting a killer resume. Now I can worry about the content of the resume letting **`R`** and $\LaTeX$ figure out the format.
+An easier method of creating and maintaining my resume. Automation is essential to make sure our precious time is used doing other things like learning new skills or working on other projects. After all there is an opportunity cost in doing everything even crafting a killer resume. Now I can worry about the content of the resume letting **`R`** and `$\LaTeX$` figure out the format.
 
 ## Acknowledgements
 
