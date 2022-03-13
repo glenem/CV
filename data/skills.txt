@@ -1,0 +1,4 @@
+skill
+Programming: R; Python
+Microsoft Office: Excel; Word; PowerPoint; Outlook
+API: FRED; BLS; US Census

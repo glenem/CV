@@ -1,0 +1,5 @@
+title, company, startMonth, startYear, endMonth, endYear, location
+Undergraduate Research Assistant,"Department of Biology, California State University, Fresno",August,2017,May,2021,"Fresno, CA"
+Economics Intern,Fresno County Economic Development Corporation,February,2021,May,2021,"Fresno, CA"
+Special Projects Assistant,Fresno County Economic Development Corporation,June,2021,July,2021,"Fresno, CA"
+Pricing Specialist,Wen-Parker Logistics (WPL),September,2021,,Present,"Fort Myers, FL"

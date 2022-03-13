@@ -1,0 +1,69 @@
+---
+name: Glen
+surname: Martin
+# position: "Pricing Specialist"
+address: "Port Charlotte, FL"
+email: "glenem3@gmail.com"
+github: glenem
+linkedin: glen-martin-403a29134
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 100000
+docname: CV
+output: vitae::awesomecv
+        
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+require(pacman)
+
+pacman::p_load(vitae, magrittr, readr, glue, tinytex, dplyr, here)
+
+
+# Loads in data from external R script
+source(file=here("r", "importR.R"), local = knitr::knit_global())
+
+```
+
+# Skills Section
+
+```{r SKILLS}
+skills %>% 
+    detailed_entries(
+        what = skill
+    )
+
+```
+
+# Work Experience
+
+```{r EMPLOYMENT}
+
+work %>%
+  detailed_entries(
+    with = title,
+    what = company,
+    why = detail,
+    where = glue::glue("{startMonth} {startYear} -- {endMonth} {endYear}",.na = ""),
+    when = location
+  )
+
+```
+
+# Education
+
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = university,
+    what = degree,
+    why = detail,
+    where = glue::glue("{endMonth} {endYear}",.na = ""),
+    when = location
+  )
+
+```

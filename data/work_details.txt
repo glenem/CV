@@ -1,0 +1,17 @@
+title, detail
+Undergraduate Research Assistant,Investigated the academic literature using Google Scholar leading to a research project about implementing an intervention which promotes student reflection to enhance their grades the results of which were presented at an academic conference
+Undergraduate Research Assistant,Distributed surveys using Qualtrics and cleaned survey data in Excel before analysis
+Undergraduate Research Assistant,Analyzed survey data and designed data visualization using Excel and SPSS for presentations at academic conferences
+Undergraduate Research Assistant,"Drafted research proposals which resulted in acceptance to academic conferences and research funding totaling to around $2,000"
+Pricing Specialist,"Consolidated 9 different Excel workbooks into one, implemented a search functionality using index matching to quickly find air rates for all customers, and see how the rates vary among customers "
+Pricing Specialist,"Developed a Week over Week comparision worksheet to compare air rates from user selected origin destination pairs. Implemented Power Query to compile data from different soruces to feed into the week over week comparision tool"
+Pricing Specialist,"Created an ocean rates calculator in Excel using INDEX, XMATCH, IFS and other function in excel to improve the accuracy of ocean rate retrieval"
+Pricing Specialist,"Developed a dynamic KPI workbook to monitor the number of losses, missing ATAs, missing accruals, unposted invoices, and unbilled revenue on a weekly basis. Used Powery Query and Pivot Tables to create the dynamism. Resulting in a % decline in loses, % decline in missing ATAs, % decline in missing accruals, % decline in unposted invoices and a $ decline in unbilled revenue"
+Pricing Specialist,"Codded a win estimator tool for spot quotes to ascertain the probability of a quote being accepted by a customer given a certain margin in R which improved spot quote acceptance by ___%"
+Economics Intern,"Developed code in R to update labor market data from government soruces for the organization's website and business recruitment materials"
+Economics Intern,"Implemented Python code to estimate the demographic make-up of employees of a company based on EMSI occupation demophraphic data for the entire inustry for use in a proprietary scorecard"
+Economics Intern,"Developed an R script to update a proprietary tax credit tool that estimates state tax credits for a business based on a statsical model
+Special Projects Assistant, Compiled a variety of data sources for a client using ArcGIS for a specified geographical area"
+Special Projects Assistant,"Developed a proprietary tool using R code to estimate the number of workers and tax revenue for an area of parcels"
+Special Projects Assistant,"Compiled three Excel workbooks together using VLOOKUP, XLOOKUP, and SUMIF that can be fed into a statistical model to develop a tool that can estimate the number of worker and taxes of an area of parcels"
+Special Projects Assistant,"Developed R code that can load and transform employment and unemployment data from the BLS to create various graphs in R to ascertain if certain areas or industries are underrepresented in the PPP loan"

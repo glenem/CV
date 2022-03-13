@@ -1,0 +1,75 @@
+---
+name: Glen
+surname: Martin
+position: "Pricing Specialist"
+address: "Wen-Parker Logistics"
+email: "glenem3@gmail.com"
+github: glenem
+date: "`r format(Sys.time(), '%B %Y')`"
+headcolor: 990000
+docname: CV
+output: vitae::awesomecv
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      warning = FALSE,
+                      message = FALSE)
+
+require(pacman)
+
+
+pacman::p_load(vitae, magrittr, readr, glue, tinytex, dplyr)
+
+# Loads data used and creates transformations
+edu <- read.csv("data/edu.txt")
+
+work_text <- read.csv("data/work.txt")
+
+work_details <- read.csv("data/work_details.txt")
+
+work <- work_text %>% right_join(y=work_details, by="title")
+
+PostersTalks <- read.csv("data/PostersTalks.txt")
+
+
+```
+
+# Work Experience
+
+```{r EMPLOYMENT}
+
+work %>%
+  detailed_entries(
+    with = title,
+    what = company,
+    why = detail,
+    when = glue::glue("{startMonth} {startYear} -- {endMonth} {endYear}",.na = ""),
+    where = location
+  )
+
+```
+
+# Education
+
+```{r EDUCATION}
+
+edu %>%
+  detailed_entries(
+    with = university,
+    what = degree,
+    why = detail,
+    when = glue::glue("{endMonth} {endYear}",.na = ""),
+    where = location
+  )
+
+```
+
+# Peer-Reviews Talks and Posters
+
+```{r TalksPosters}
+PostersTalks %>%
+    detailed_entries(
+        what = bib, .protect = FALSE
+    )
+```

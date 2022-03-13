@@ -1,0 +1,2 @@
+degree, endMonth, endYear, university, location, detail
+B.A. Economics,May,2021,"California State University, Fresno","Fresno, CA"
